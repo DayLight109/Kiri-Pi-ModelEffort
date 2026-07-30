@@ -3,6 +3,7 @@
 # Kiri-Pi-ModelEffort
 
 [![npm version](https://img.shields.io/npm/v/kiri-pi-model-effort)](https://www.npmjs.com/package/kiri-pi-model-effort)
+[![Pi package](https://img.shields.io/badge/Pi-package-6f42c1)](https://pi.dev/packages/kiri-pi-model-effort)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Persist separate reasoning-effort presets for Claude and GPT models in [Pi](https://pi.dev).
