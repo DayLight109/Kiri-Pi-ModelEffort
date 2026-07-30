@@ -11,6 +11,12 @@ Persist separate reasoning-effort presets for Claude and GPT models in [Pi](http
 
 </div>
 
+## Download / 下载
+
+- **npm:** <https://www.npmjs.com/package/kiri-pi-model-effort>
+- **Pi installation / Pi 安装：** `pi install npm:kiri-pi-model-effort`
+- **GitHub source ZIP / 源码压缩包：** <https://github.com/DayLight109/Kiri-Pi-ModelEffort/archive/refs/heads/main.zip>
+
 ## Features
 
 - Keeps independent presets for **Anthropic/Claude** and **OpenAI/GPT** model families.
