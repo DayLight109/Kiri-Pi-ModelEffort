@@ -1,0 +1,66 @@
+{
+  "name": "kiri-pi-model-effort",
+  "version": "0.1.0",
+  "description": "Persist separate reasoning-effort presets for Anthropic/Claude and OpenAI/GPT models in Pi.",
+  "type": "module",
+  "license": "MIT",
+  "author": "DayLight109",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "pi-coding-agent",
+    "reasoning",
+    "thinking",
+    "effort",
+    "anthropic",
+    "claude",
+    "openai",
+    "gpt"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayLight109/Kiri-Pi-ModelEffort.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DayLight109/Kiri-Pi-ModelEffort/issues"
+  },
+  "homepage": "https://github.com/DayLight109/Kiri-Pi-ModelEffort#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/core.test.ts test/extension.test.ts",
+    "check": "npm run typecheck && npm test",
+    "prepack": "npm run check"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "0.82.1",
+    "@earendil-works/pi-coding-agent": "0.82.1",
+    "@types/node": "24.13.3",
+    "tsx": "4.23.1",
+    "typescript": "7.0.2"
+  }
+}
