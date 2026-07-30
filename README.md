@@ -14,7 +14,8 @@ Persist separate reasoning-effort presets for Claude and GPT models in [Pi](http
 ## Download / 下载
 
 - **npm:** <https://www.npmjs.com/package/kiri-pi-model-effort>
-- **Pi installation / Pi 安装：** `pi install npm:kiri-pi-model-effort`
+- **Pi installation via npm / 通过 npm 安装：** `pi install npm:kiri-pi-model-effort`
+- **Pi installation via Git / 通过 Git 安装：** `pi install git:github.com/DayLight109/Kiri-Pi-ModelEffort`
 - **GitHub source ZIP / 源码压缩包：** <https://github.com/DayLight109/Kiri-Pi-ModelEffort/archive/refs/heads/main.zip>
 
 ## Features
